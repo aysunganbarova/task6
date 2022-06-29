@@ -2,21 +2,23 @@ div {
     width: 583px;
     height: 160px;
     margin-bottom:16px;
+    position: relative;
     
 } 
 
 .fixed{
     background-color: #C4C4C4;
-    width: 103px;
-    height: 56px;
-    position: relative;
-    left: 349px;
+    position: absolute;
+    right: 99px;
     border: solid #000 1px;
+    font-size:48px ;
+    padding: 3px 12px 3px 20px;
 
 }
 .green{ 
     background-color: #5DAD87;
     padding-top:8px;
+    position: relative;
 }
 
 
@@ -33,12 +35,12 @@ div {
 
 .grey{
     background-color: #C4C4C4;
-    position: absolute;
+    position: relative;
   
 }
 .blue{
     background-color: #312EBA;
-    position:relative;
+    position:absolute;
     top: 20px;
     right: 416px;
     bottom: 82px;
